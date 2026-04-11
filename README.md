@@ -60,11 +60,12 @@ cd backend
 npm install
 ```
 
-3. Run server:
+3. Run server: 
 
 ```
 npx nodemon server.js
 ```
+npm start
 
 4. Server runs on:
 
