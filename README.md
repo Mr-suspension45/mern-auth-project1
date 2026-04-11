@@ -60,14 +60,24 @@ cd backend
 npm install
 ```
 
-3. Run server: 
+3. Create .env file inside backend folder and add:
 
+PORT=5000
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=mern_auth_db
+JWT_SECRET=your_secret_key
 ```
+
+4. Run server:
+
+npm start
+(Optional for development)
 npx nodemon server.js
 ```
-npm start
 
-4. Server runs on:
+5. Server runs on:
 
 ```
 http://localhost:5000
